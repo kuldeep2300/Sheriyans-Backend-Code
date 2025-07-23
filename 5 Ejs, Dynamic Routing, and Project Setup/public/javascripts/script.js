@@ -1,0 +1,1 @@
+alert("hey there, this is a script file");
