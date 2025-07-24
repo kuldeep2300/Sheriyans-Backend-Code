@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Welcome to the Home Page!");
+  res.send("Welcome to the Home Page!"); 
 });
 
 app.get("/about", (req, res) => {
