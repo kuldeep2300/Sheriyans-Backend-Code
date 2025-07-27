@@ -1,0 +1,28 @@
+{
+  "name": "13-mini-project-1)-data-association",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js",
+    "build:css": "npx tailwindcss -i ./public/stylesheets/style.css -o ./public/stylesheets/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

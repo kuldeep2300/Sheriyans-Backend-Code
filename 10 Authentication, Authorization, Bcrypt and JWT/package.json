@@ -1,0 +1,22 @@
+{
+  "name": "10-authentication,-authorization,-bcrypt-and-jwt",
+  "module": "app.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4"
+  }
+}

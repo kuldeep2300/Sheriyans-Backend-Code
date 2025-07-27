@@ -1,0 +1,19 @@
+{
+  "name": "12-data-association,-mongodb",
+  "module": "index.ts",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5"
+  }
+}
